@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/LuigiBelanda/NodeJS_EJS-Rocketseat/issues"
   },
-  "homepage": "https://github.com/LuigiBelanda/NodeJS_EJS-Rocketseat#readme"
+  "homepage": "https://github.com/LuigiBelanda/NodeJS_EJS-Rocketseat#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
 }
