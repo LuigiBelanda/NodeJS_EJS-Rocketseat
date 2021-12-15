@@ -1,0 +1,20 @@
+{
+  "name": "nodejs_ejs-rocketseat",
+  "version": "1.0.0",
+  "description": "Daremos o poder de programar  no HTML. Atráves do EJS, aprenderemos como o Javascript irá construir nosso HTML com NodeJS e Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuigiBelanda/NodeJS_EJS-Rocketseat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuigiBelanda/NodeJS_EJS-Rocketseat/issues"
+  },
+  "homepage": "https://github.com/LuigiBelanda/NodeJS_EJS-Rocketseat#readme"
+}
