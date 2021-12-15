@@ -7,11 +7,11 @@ app.set("view engine", "ejs"); // aqui falamos que usaremos o ejs, por isso usam
 // aqui criamos uma rota para nosso servidor, o user é só ir para o home e como resposta da requisição 
 // renderizamos o index
 app.get("/", function(req, res) {
-    res.render("index");
+    res.render("pages/index");
 });
 
 app.get("/sobre", function(req, res) {
-    res.render("about");
+    res.render("pages/about");
 });
 
 app.listen(8080); // porta do servidor
