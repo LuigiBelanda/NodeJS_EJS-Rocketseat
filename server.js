@@ -7,7 +7,40 @@ app.set("view engine", "ejs"); // aqui falamos que usaremos o ejs, por isso usam
 // aqui criamos uma rota para nosso servidor, o user é só ir para o home e como resposta da requisição 
 // renderizamos o index
 app.get("/", function(req, res) {
-    res.render("pages/index");
+
+    const items = [
+        {
+            title: "D",
+            message: "esenvolver aplicações/serviços de forma fácil" 
+        },
+        {
+            title: "E",
+            message: "JS usa JS para renderizar HTML" 
+        },
+        {
+            title: "M",
+            message: "uito fácil de usar" 
+        },
+        {
+            title: "A",
+            message: "morzinho" 
+        },
+        {
+            title: "I",
+            message: "nstall ejs" 
+        },
+        {
+            title: "S",
+            message: "intaxe simples" 
+        },
+    ];
+
+    const subtitle = "Uma linguagem de modelagem para criação de páginas HTML utilizando JS";
+
+    res.render("pages/index", {
+        qualitys: items,
+        subtitle,
+    });
 });
 
 app.get("/sobre", function(req, res) {
